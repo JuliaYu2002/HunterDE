@@ -1,0 +1,12 @@
+# Name: Julia Yu
+# Date: November 15, 2019
+# Email: julia.yu83@myhunter.cuny.edu
+# This program loops through numbers 2 to 20
+
+ADDI $s0, $zero, 2 #set s0 to 2
+ADDI $s1, $zero, 2  #use to increase counter, $s0
+AGAIN: ADD $s0, $s0, $s1
+ADDI $s2, $zero, 20
+BEQ $s0, $s2, DONE
+J AGAIN
+DONE:  #To break out of the loop

@@ -1,0 +1,6 @@
+#Name: Julia Yu
+#Date: November 5, 2019
+#Email: julia.yu83@myhunter.cuny.edu
+#This program uses Unix script to count the number of py files in a directory
+
+ls -l | grep ".py"

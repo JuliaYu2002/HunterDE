@@ -1,0 +1,5 @@
+#!/bin/bash
+#Name: Julia Yu
+#Email: julia.yu83@myhunter.cuny.edu
+#Date: October 4, 2019
+echo "Hello, World"

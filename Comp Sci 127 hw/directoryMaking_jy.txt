@@ -1,0 +1,10 @@
+#Name: Julia Yu
+#Date: November 5, 2019
+#Email: julia.yu83@myhunter.cuny.edu
+#This program uses Unix shell commands to make a directory with 3 directories in it
+
+mkdir projectFiles
+cd projectFiles
+mkdir source
+mkdir data
+mkdir results
